@@ -1,0 +1,11 @@
+<div *ngIf="bookDetails" >
+    <h3>{{bookDetails.title}}</h3>
+    <h4>{{bookDetails.author}}</h4>
+    <img src="assets/img/{{bookDetails.id}}.png">
+    <p>{{bookDetails?.description}}</p>
+    <strong>{{bookDetails.isbn}}</strong>
+</div>
+<br>
+<a [routerLink]="['Books']">
+    << Back
+</a>

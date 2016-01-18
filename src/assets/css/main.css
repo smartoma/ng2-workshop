@@ -1,0 +1,78 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background: #E7E3DA;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+nav {
+  color: #F3F3F3;
+}
+
+ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.flex {
+  flex: 1;
+  background: #1A1A1A;
+  padding: 1em;
+  border-right: 1px solid #222;
+  text-align: center;
+  transition: all .2s;
+}
+
+.flex:hover {
+  background: #1E6B47;
+  cursor: pointer;
+}
+
+.fixed {
+  display: inline-flex;
+  background: #1E6B47;
+  padding: 1em;
+  transition: all .3s;
+}
+
+.fixed:hover {
+  width: 50%;
+}
+
+input {
+  flex: 1;
+  background: transparent;
+  height: 100%;
+  margin-left: 13px;
+  border: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  color: #F3F3F3;
+}
+tr.bookDetail {
+  cursor: pointer;
+}
+
+input:focus {
+  outline: none;
+}
+.fontawesome-search {
+  text-indent: .3em;
+  width: 175px;
+}
+

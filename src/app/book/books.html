@@ -1,0 +1,15 @@
+<table class="table table-bordered table-striped">
+    <thead>
+    <tr>
+        <th>Title</th>
+        <th>Author</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="bookDetail" *ngFor="#book of bookData" (click)="select(book)">
+        <td>{{book.title}}</td>
+        <td>{{book.author}}</td>
+        <td>{{book.isbn}}</td>
+    </tr>
+    </tbody>
+</table>

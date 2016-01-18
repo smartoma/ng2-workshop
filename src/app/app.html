@@ -1,0 +1,13 @@
+<div class="row">
+    <nav id="navigation">
+        <ul>
+            <li class="flex" (click)="show('Books')" >Books</li>
+            <li class="fixed fontawesome-search">
+                <input type="text" (click)="show('Search')" placeholder="Search">
+            </li>
+        </ul>
+    </nav>
+</div>
+<div class="row">
+    <router-outlet></router-outlet>
+</div>

@@ -1,0 +1,30 @@
+{
+  "name": "ng2-workshop",
+  "version": "1.0.0-SNAPSHOT",
+  "description": "Kantega Angular2 workshop using TypeScript",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smartoma/ng2-workshop.git"
+  },
+  "homepage": "http://www.kantega.no",
+  "devDependencies": {
+    "bootstrap": "^3.3.6",
+    "browser-sync": "^2.10.0",
+    "browser-sync-spa": "^1.0.3",
+    "connect": "^3.4.0",
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-typescript": "^2.8.0",
+    "open": "0.0.5",
+    "serve-static": "^1.10.0"
+  },
+  "dependencies": {
+    "angular2": "2.0.0-beta.1",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.3",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.0",
+    "systemjs": "0.19.6",
+    "zone.js": "0.5.10"
+  }
+}
