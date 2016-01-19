@@ -1,10 +1,12 @@
-<div *ngIf="bookDetails" >
-    <h3>{{bookDetails.title}}</h3>
+<article *ngIf="bookDetails" >
+    <header><h3>{{bookDetails.title}}</h3></header>
     <h4>{{bookDetails.author}}</h4>
-    <img src="assets/img/{{bookDetails.id}}.png">
-    <p>{{bookDetails?.description}}</p>
-    <strong>{{bookDetails.isbn}}</strong>
-</div>
+    <figure class="imageContainer"><img src="assets/img/{{bookDetails.id}}.png"></figure>
+    <p>
+        {{bookDetails?.description}}
+    </p>
+    <footer>{{bookDetails.isbn}}</footer>
+</article>
 <br>
 <a [routerLink]="['Books']">
     << Back

@@ -1,8 +1,8 @@
 import {Component} from 'angular2/core';
 import {Router} from 'angular2/router';
-import {BookDetails} from "../services/book.service";
 import {BOOK_DATA} from "../services/book.data";
 import {OnDestroy} from "angular2/core";
+import {BookDetails} from "../model/bookdetails";
 
 @Component({
     templateUrl: 'app/book/books.html',

@@ -1,4 +1,5 @@
 import {BOOK_DATA} from './book.data';
+import {BookDetails} from "../model/bookdetails";
 export class BookService {
 
     getDetails(id:number):BookDetails {
@@ -15,11 +16,3 @@ export class BookService {
     }
 }
 
-export class BookDetails {
-    constructor(public id:number,
-                public title: string,
-                public author: string,
-                public isbn: string,
-                public description: string) {
-    }
-}

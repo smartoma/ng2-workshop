@@ -1,5 +1,4 @@
 import {Component,EventEmitter} from 'angular2/core';
-import {BookDetails} from "../services/book.service";
 import SearchService from "../services/search.service";
 import {Output} from "angular2/core";
 
@@ -14,7 +13,7 @@ export class SearchComponent {
 
     search(searchKey:string) {
         if (searchKey.length > 2) {
-            this.searchService.search(searchKey);
+            this.searchService.search(searchKey.toLowerCase());
         } else {
             this.searchService.clear();
         }
