@@ -1,0 +1,15 @@
+<table class="table table-bordered table-striped">
+    <thead>
+    <tr [hidden]="!searchResults">
+        <th>Title</th>
+        <th>Author</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="#book of searchResults">
+        <td>{{book.title}}</td>
+        <td>{{book.author}}</td>
+        <td>{{book.isbn}}</td>
+    </tr>
+    </tbody>
+</table>
