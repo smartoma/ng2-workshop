@@ -75,6 +75,9 @@ input:focus {
   text-indent: .3em;
   width: 175px;
 }
+input[type="text"] {
+  width:300px;
+}
 .imageContainer {
   width: 1px;
   display: table;

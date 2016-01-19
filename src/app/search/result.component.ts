@@ -16,8 +16,12 @@ export class ResultComponent implements OnInit {
     }
 
     ngOnInit():any {
-        this.searchService.resultEvent.subscribe((data) => {
-            this.searchResults = data;
+        this.searchService.resultEvent.subscribe((result) => {
+            this.searchResults = result;
         });
+    }
+
+    whenEmptyResult():boolean {
+        return this.searchResults == null || this.searchResults.length == 0;
     }
 }

@@ -1,6 +1,6 @@
 <table class="table table-bordered table-striped">
     <thead>
-    <tr [hidden]="!searchResults">
+    <tr [hidden]="whenEmptyResult()">
         <th>Title</th>
         <th>Author</th>
     </tr>
@@ -13,3 +13,4 @@
     </tr>
     </tbody>
 </table>
+<div [hidden]="!whenEmptyResult()" class="text-center"><b>No results.</b></div>
