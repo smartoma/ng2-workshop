@@ -22,7 +22,7 @@ Du skal lage en bok-applikasjon til Kantega hvor man kan:
 
 1. Router og navigering
 -----------------------
-* Åpne filer src/app/app.html og src/app/app.component.ts
+* Åpne filer **src/app/app.html og src/app/app.component.ts**
 * Konfigurer riktig path til 'Books' og 'Search'
 * Knytt click-event til list-elementer i app.html, slik at man kan navigere til
   'Books' og 'Search'. Bruk show-metoden i app.component.ts som navigerer til
@@ -34,8 +34,8 @@ Du skal lage en bok-applikasjon til Kantega hvor man kan:
   
 2. \*ngFor og bookdetaljer
 --------------------------
-* Åpne filer src/app/book/books.html, src/app/book/book.component.ts
-  og src/app/app.component.ts
+* Åpne filer **src/app/book/books.html, src/app/book/book.component.ts
+  og src/app/app.component.ts**
 * Endre @RouteConfig i app.component slik at den heter 'BookDetails' og har path 
   som '/book/:id' 
 * Endre books.html slik at alle bøkene skrives ut til tabellen. Bruk \*ngfor.
@@ -50,7 +50,7 @@ Du skal lage en bok-applikasjon til Kantega hvor man kan:
   
 3. RouterLinking i html
 ------------------------
-* Åpne fil src/app/book/bookdetail.html
+* Åpne fil **src/app/book/bookdetail.html**
 * Endre 'Back'-linken slik at man kommer tilbake til 'Books' ved å
   erstatte href med 'routerLink'-syntaksen.
 * Se: https://angular.io/docs/ts/latest/guide/router.html og 'Router Links' der. 
@@ -58,7 +58,7 @@ Du skal lage en bok-applikasjon til Kantega hvor man kan:
 4. Component template, lokal variable og selector
 ---------------------------------
 
-* Åpne filer src/app/search/search.component.ts og src/app/app.html
+* Åpne filer **src/app/search/search.component.ts og src/app/app.html**
 * Legg til 'selector' for komponent slik søke-feltet dukker opp i app.html.
 * I template til search.component.ts binde 'keyup'-event å kalle search-metoden
   i search.component.ts 
@@ -68,7 +68,7 @@ Du skal lage en bok-applikasjon til Kantega hvor man kan:
 5. Lifecycle-hook OnInit
 -------------------------
 
-* Åpne src/app/search/result.component.ts og src/app/services/search.service.ts
+* Åpne **src/app/search/result.component.ts og src/app/services/search.service.ts**
 * Endre result.component.ts slik at den implementerer OnInit-interface og
   'bestiller' resultater fra searchService.
 * Husk å importere riktig interface !
@@ -77,7 +77,7 @@ Du skal lage en bok-applikasjon til Kantega hvor man kan:
   
 6. Hidden element
 ------------------
-* Åpne src/app/search/result.component.ts og src/app/search/result.html
+* Åpne **src/app/search/result.component.ts og src/app/search/result.html**
 * Se: http://blog.thoughtram.io/angular/2015/03/27/building-a-zippy-component-in-angular-2.html
   eksempel om bruk av 'hidden'-property.
 * Bruk 'whenEmptyResult'-metoden for å vise/skjule dom-elementer.
