@@ -15,9 +15,12 @@ import {Router} from 'angular2/router';
 })
 @RouteConfig(
     [
-        {path: '/books', name: 'Books', component: BookComponent, useAsDefault: true},
-        {path: '/book/:id', name: 'BookDetails', component: BookDetailComponent},
-        {path: '/search', name: 'Search', component: ResultComponent}
+        // Oppgave 1. legg til riktig path '/books' for 'Books'
+        {path: 'BOOKS-PATH-CHANGE-ME', name: 'BOOKS-NAME-CHANGE-ME', component: BookComponent},
+        // Oppgave 2. legg til riktig path med 'id' som en path variable til 'Book'
+        {path: 'BOOK-ID-PATH-CHANGE-ME', name: 'BOOK-ID-PATH-CHANGE-ME', component: BookDetailComponent},
+        // Oppgave 1. legg til riktig path '/search' for 'Search'
+        {path: 'SEARCH-PATH-CHANGE-ME', name: 'SEARCH-NAME-CHANGE-ME', component: ResultComponent}
     ]
 )
 export class AppComponent {

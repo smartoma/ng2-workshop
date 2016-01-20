@@ -1,6 +1,8 @@
 <table class="table table-bordered table-striped">
     <thead>
-    <tr [hidden]="whenEmptyResult()">
+    <!-- Oppgave 6. -->
+    <!-- tr-element skal vises bare når man har resultater -->
+    <tr>
         <th>Title</th>
         <th>Author</th>
     </tr>
@@ -13,4 +15,5 @@
     </tr>
     </tbody>
 </table>
-<div [hidden]="!whenEmptyResult()" class="text-center"><b>No results.</b></div>
+<!-- Oppgave 6. skal vises når ingen resultater -->
+<div  class="text-center"><b>No results.</b></div>

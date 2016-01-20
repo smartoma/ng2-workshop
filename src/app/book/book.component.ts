@@ -8,9 +8,6 @@ import {BookDetails} from "../model/bookdetails";
     templateUrl: 'app/book/books.html',
 })
 export class BookComponent {
-    lat: number = 59.91;
-    lng: number = 10.75;
-    zoom: number = 10;
     bookData = BOOK_DATA;
 
     constructor(private _router:Router) {
@@ -18,7 +15,6 @@ export class BookComponent {
 
 
     select(bookDetails:BookDetails) {
-        console.log("Clicked " + JSON.stringify(bookDetails));
         this._router.navigate(['BookDetails', {id: bookDetails.id}]);
     }
 }
