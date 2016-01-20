@@ -18,6 +18,9 @@ Oppgavene
 Du skal lage en bok-applikasjon til Kantega hvor man kan:
  * Se alle bøker som finnes i Kantega
  * Søke etter bøker
+ 
+Full applikasjon, og hvordan løsningen skal se ut, finns her: 
+### https://ng-kantega-ws.herokuapp.com
 
 
 1. Router og navigering
