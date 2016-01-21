@@ -34,6 +34,7 @@ Full applikasjon, og hvordan løsningen skal se ut, finns her:
   URLen byttet til http://localhost:3000/books (Hint: bruk 'useAsDefault')
 * Se: https://angular.io/docs/ts/latest/guide/router.html
   I **'Wrap Up'** seksjonen ser du gode eksempler om routing.
+  I **'Navigate to the detail imperatively'** hjelper å knytte clic-event til metode-kall.
   
 2. \*ngFor og bookdetaljer
 --------------------------
